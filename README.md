@@ -69,20 +69,28 @@ export default {
 
 ## API
 
-### Function
+### Functions
+<b>start(ms: number):</b> Starts the timer with the specified number of milliseconds.
+<br>
+<b>stop():</b> Stops the timer and resets the time.
+<br>
+<b>pause():</b> Pauses the timer.
+<br>
+<b>play():</b> Resumes the timer from the paused state.
 
-```
-start(ms: number): Starts the timer with the given number of milliseconds.
-stop(): Stops the timer and resets the time.
-pause(): Pauses the timer.
-play(): Resumes the timer from the pause.
-```
 
 ### Events
 
-```
-onStart(callback: Function): Registers a callback for the start event.
-onStop(callback: Function): Registers a callback for the stop event.
-onPause(callback: Function): Registers a callback for the pause event.
-onPlay(callback: Function): Registers a callback for the play event.
-```
+<b>onStart(callback: Function):</b> Registers a callback for the start event.
+<br>
+<b>onStop(callback: Function):</b> Registers a callback for the stop event.
+<br>
+<b>onPause(callback: Function):</b> Registers a callback for the pause event.
+<br>
+<b>onPlay(callback: Function):</b> Registers a callback for the play event.
+
+
+### Values
+<b>time:</b> The timer's time, in milliseconds, if the formatter does not return another value. Will return 0 if the time has expired.
+<br>
+<b>isPaused:</b> Returns true if the timer is paused.

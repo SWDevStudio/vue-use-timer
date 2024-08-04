@@ -1,0 +1,19 @@
+{
+  "name": "vue-use-timer",
+  "version": "1.0.0",
+  "description": "Timer for vue 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": {
+    "name": "Kotaro",
+    "email": "swdevstudio@gmail.com",
+    "url": "https://github.com/SWDevStudio"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.4.35"
+  }
+}
